@@ -1,0 +1,12 @@
+node_modules
+config
+package-lock.json
+hardhat.config.js
+*.env
+cache
+artifacts
+assets
+client/node_modules
+client/package-lock.json
+build
+npm-debug.log
