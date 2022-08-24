@@ -25,8 +25,8 @@ const Signup = () => {
 		try {
 			const url = "http://localhost:8080/api/users";
 			const { data: res } = await axios.post(url, data);
+			alert('Password sent to your Mail');
 			navigate("/login");
-			console.log(res.message);
 		} catch (error) {
 			if (
 				error.response &&
